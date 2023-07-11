@@ -1,7 +1,7 @@
 import PartnershipHero from "./Hero/PartnershipHero";
 import PartnershipProgram from "./Program/PartnershipProgram";
 import PartnershipServices from "./PartnershipServices/PartnershipServices";
-import Packages from "./Packages/Packages";
+// import Packages from "./Packages/Packages";
 import Helps from "./Helps/Helps";
 import BecomeCraftPartner from "./BecomeCraftPartner/BecomeCraftPartner";
 import FAQComponent from "./FAQComponent/FAQComponent";
@@ -31,7 +31,7 @@ const Partnership = () => {
       <PartnershipProgram />
       <PartnershipServices />
       <News />
-      <Packages />
+{/*       <Packages /> */}
       <Helps />
       <FAQComponent heading={faqCompHeading} />
       <Certificate />
